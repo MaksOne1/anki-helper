@@ -2,7 +2,7 @@
 
 import Head from 'next/head';
 import * as React from 'react';
-
+import { Button } from '@/shared/ui/Button';
 
 export default function HomePage() {
   return (
@@ -10,7 +10,7 @@ export default function HomePage() {
       <Head>
         <title>Title</title>
       </Head>
-content
+      <Button variant='destructive'>asdsad</Button>
     </main>
   );
 }
